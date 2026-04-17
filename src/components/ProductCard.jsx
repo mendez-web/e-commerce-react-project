@@ -6,7 +6,6 @@ const ProductCard = ({ name, price, image, description}) => {
       <div className="product-card-content">
         <h3 className="product-card-name">{name}</h3>
         <p className="product-card-price">P{price}</p>
-        
       </div>
       <div className="product-card-actions">
         <Link className="btn btn-secondary">View Details</Link>
